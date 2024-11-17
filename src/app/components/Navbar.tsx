@@ -6,7 +6,7 @@ import { ImCross } from "react-icons/im";
 export default function Home (){
 return(
     <>
-   <div className="h-[38px] w-[1350px] bg-[#000000] text-[#FFFFFF]">
+   <div className="h-[38px] w-[1340px] bg-[#000000] text-[#FFFFFF]">
     <p className="relative h-[19px] w-[361px] bg-[#000000] top-[9px] left-[544px] text-[13px] leading-[18.9px] ">Sign up and get 20% off to your first order.<span className=" underline">Sign Up Now</span></p>
     <ImCross className="h-[20px] w-[20px] relative bottom-2 left-[1320px] " />
 
