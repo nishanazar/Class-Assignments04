@@ -91,7 +91,7 @@ export default function NewArrivals(){
 
     <div className="lg:h-[52px] lg:w-[218px] relative top-[40px] rounded-[62px] py-[16px] text-center text-[16px] font-medium leading-[21.6px] border-[1px] border-[#0000001A] lg:left-[544px] left-5">View all</div>
     
-<hr className="lg:my-[90px] my-[50px] text-[#0000001A]" />
+<hr className="lg:my-[90px] my-[50px] lg:w-[1000px] text-[#0000001A]" />
 
 
 

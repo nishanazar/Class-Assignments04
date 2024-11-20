@@ -2,7 +2,7 @@ import Button from "./Button";
 import Image from "next/image";
 export default function Hero(){
     return(
-        <div className="lg:h-[663px] xl:w-[1440px] lg:w-[1330px] sm:h-[630px] sm:w-[1040px] relative lg:top-[70px] lg:bg-[url('/hero-1.png')] h-[853px] w-[390px] top-[60px] bg-[#F2F0F1]">
+        <div className="lg:h-[663px]  lg:w-[1330px] sm:h-[630px] sm:w-[1040px] relative lg:top-[70px] lg:bg-[url('/hero-1.png')] h-[853px] w-[390px] top-[60px] bg-[#F2F0F1]">
             <div className="sm:flex ">
             <div>
             <h3 className="h-[93px] w-[315px] relative top-[30px] left-[16px] lg:h-[173px]  lg:w-[577px]  lg:top-[100px] lg:left-[100px] text-[36px] lg:text-[60px]  font-bold text-[#000000] leading-[34px] lg:leading-[64px]">FIND CLOTHES THAT MATCHES YOUR STYLE</h3>

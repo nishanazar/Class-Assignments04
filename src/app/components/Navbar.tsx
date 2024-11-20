@@ -7,7 +7,7 @@ import { CiMenuBurger } from "react-icons/ci";
 export default function Home (){
 return(
     <>
-   <div className="lg:h-[38px] xl:w-[1440px] xl:h-[38px] lg:w-[1330px] h-[34px] w-[390px] sm:h-[34px] sm:w-[900px] bg-[#000000] text-[#FFFFFF] pl-[30px] py-[9px] md:p-[0px] ">
+   <div className="lg:h-[38px] lg:w-[1330px] h-[34px] w-[390px] sm:h-[34px] sm:w-[900px] bg-[#000000] text-[#FFFFFF] pl-[30px] py-[9px] md:p-[0px] ">
    <p className="relative lg:h-[19px] lg:w-[361px] bg-[#000000] sm:top-[9px] lg:left-[544px] lg:text-[13px] sm:text-[13px] sm:text-center  text-[10px] leading-[18.9px] ">Sign up and get 20% off to your first order<span className=" underline">Sign Up Now</span></p>
    <ImCross className="h-[20px] w-[20px] lg:relative bottom-2 md:left-[1320px] lg:block hidden " />
    </div>

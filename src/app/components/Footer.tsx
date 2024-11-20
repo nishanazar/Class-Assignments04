@@ -71,7 +71,7 @@ export default function Footer(){
         </div>
         </div>
         </div>
-        <div className="border-[#0000001A] xl:w-[1240px] lg:w-[1040px] lg:left-[100px] w-[358px] top-[80px] border-[1px] relative lg:top-[200px] "></div>
+        <div className="border-[#0000001A]  lg:w-[1040px] lg:left-[100px] w-[358px] top-[80px] border-[1px] relative lg:top-[200px] "></div>
         <div className="relative lg:top-[230px] lg:left-[100px] lg:flex lg:gap-[420px] top-[100px] lg-m-0 ml-10">
         <div className="w-[269px] h-[19px] text-right text-[14px] font-normal leading-[18px] lg:m-0 mb-5">Shop.co © 2000-2023, All Rights Reserved</div>
         <Image src={"/logo2.png"} alt={"logo2"} height={30} width={281}/>
