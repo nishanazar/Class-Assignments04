@@ -10,7 +10,7 @@ export default function Footer(){
       <>
       <Offers/>
        
-        <div className="lg:w-[1330px] xl-w-[1440px] lg:h-[499px] bg-[#F0F0F0] w-[393px] h-[846px] sm:w-[693px] sm:h-[846px]">
+        <div className="lg:w-[1350px] xl-w-[1440px] lg:h-[499px] bg-[#F0F0F0] w-[393px] h-[846px] sm:w-[693px] sm:h-[846px]">
         <div className="lg:w-[1030px] xl-w-[1140px] lg:h-[177px] relative lg:top-[130px] sm:top-[50px] sm:left-[95px] lg:flex  sm:gap-24 ">
         <div className="h-[177px] w-[248px] ">
         <h3 className="lg:h-[22px] lg:w-[126px] lg:text-[33px]  leading-[38.4px] text-[#000000] font-bold lg:mt-1 w-[144px] h-[20px] text-[35px] lg:pt-0 ml-6 pt-4 " >SHOP.CO</h3>
