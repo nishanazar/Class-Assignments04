@@ -18,6 +18,7 @@ export default function Home (){
   <Selling/>
   <DressStyles/>
   <Customer/>
+  <Footer/>
 </div>
   )
 }
