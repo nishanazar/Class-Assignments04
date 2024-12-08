@@ -14,7 +14,7 @@ const CategoryPage = () => {
   return (
     <>
     <div className="lg:flex">
-    <Image className="m-16 md:hidden" src={"/side-pic.png"} alt={"side-pic"} height={1220} width={295} />
+    <Image className="m-16 md:hidden block lg:block" src={"/side-pic.png"} alt={"side-pic"} height={1220} width={295} />
     <div className="mt-16">
     <div className="flex gap-[270px]"><h3 className="text-[32px] font-bold">Casual</h3>
     <p className="text-[16px] md:block hidden">Showing 1-10 of 100 Products <span className="font-bold">Sort by: Most Popular</span></p></div>

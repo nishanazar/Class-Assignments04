@@ -10,7 +10,7 @@ import ProductPageCard from "../components/ProductPageCard"
 const ProductDetails = () => {
   return (
     <>
-     <div className=" md:mt-[150px] mt-[60px] lg:flex ">
+     <div className=" md:mt-[170px] mt-[60px] lg:flex ">
       {/* shirt  */}
       <div className="flex lg:ml-[100px] md:ml-14 gap-3 ">
       <div className="space-y-3">

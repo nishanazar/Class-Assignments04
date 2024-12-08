@@ -7,7 +7,7 @@ export default function Hero(){
             <div>
             <h3 className="h-[93px] w-[315px] relative top-[30px] left-[16px] lg:h-[173px]  lg:w-[577px]  lg:top-[100px] lg:left-[100px] text-[36px] lg:text-[60px]  font-bold text-[#000000] leading-[34px] lg:leading-[64px]">FIND CLOTHES THAT MATCHES YOUR STYLE</h3>
             <p className="text-[#00000099]  text-[14px] h-[50px] relative w-[358px] lg:h-[33px] lg:w-[548px] top-[50px] lg:top-[140px] left-[16px] lg:left-[100px] lg:text-[15px]">Browse through our diverse range of meticulously crafted garments, designed to bring out your individuality and cater to your sense of style.</p>
-            <div className=" relative top-[60px]  lg:top-[160px] left-4 lg:left-[100px]"><Button text={"Shop Now"} bgColor="black"/></div>
+            <div className=" relative top-[60px]  lg:top-[160px] left-4 lg:left-[100px]"><Button text={"Shop Now"} bgColor="bg-black" textcolor="text-white"/></div>
             <div className=" relative lg:flex lg:top-[110px] lg:left-[80px] lg:h-[74px] lg:w-[595px]  ">
             <div className="relative h-[52px] w-[278px]  top-[110px] left-[56px] flex justify-between lg:space-x-7 ">
             <div className=" h-[48px] w-[113px] lg:h-[74px] lg:w-[141px]">
