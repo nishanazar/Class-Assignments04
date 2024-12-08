@@ -4,6 +4,7 @@ import Image from "next/image";
 interface data {
     text : string;
     p: string;
+    
 }
 export default function Card(props:data){
     return(

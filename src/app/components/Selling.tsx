@@ -10,6 +10,7 @@ export default function NewArrivals(){
     <h5 className="lg:w-[403px] lg:h-[58px] lg:ml-[518px] lg:text-5xl lg:my-[50px] lg:font-bold text-center text-[#000000] w-[369px] h-[38px] font-extrabold  text-2xl my-5">TOP SELLING
     </h5>
     <div className="flex gap-7 justify-center"><div>
+        
     <Image src={"/sell1.png"} alt={"shirt"} height={292} width={270}/>
     <div>
     <h5 className="lg:text-[17px] text-[12px]  font-bold py-2 ">VERTICAL STRIPED SHIRT</h5>
