@@ -1,10 +1,11 @@
-import { Check } from "lucide-react"
+import { Check, } from "lucide-react"
 import Image from "next/image"
 import { IoIosStar } from "react-icons/io"
 import CountBtn from "../components/CountBtn"
 import Button from "../components/Button"
 import Product from "../components/Product"
 import ProductPageCard from "../components/ProductPageCard"
+import Circle from "../components/Circle"
 
 
 const ProductDetails = () => {
@@ -51,8 +52,9 @@ const ProductDetails = () => {
           <div className="w-[37px] h-[37px] bg-[#4F4631] rounded-full">
           <Check color="#eaf1ea" className="pt-1 ml-2" />
           </div>
-          <div className="w-[37px] h-[37px] bg-[#314F4A] rounded-full"></div>
-          <div className="w-[37px] h-[37px] bg-[#31344F] rounded-full"></div>
+          <Circle bgColor={"bg-[#314F4A]"}/>
+          <Circle bgColor={"bg-[#31344F]"}/>
+          
 
 
         </div>

@@ -10,7 +10,7 @@ export default function Footer(){
       <>
       <Offers/>
       <div className="w-full bg-[#F0F0F0]">
-      <div className="w-full lg:h-[499px] sm:h-auto h-auto flex flex-col items-center lg:pt-[130px] sm:pt-[50px] pt-[30px]">
+      <div className="w-full lg:h-[440px] sm:h-auto h-auto flex flex-col items-center lg:pt-[130px] sm:pt-[50px] pt-[30px]">
       {/* Header Section */}
       <div className="lg:flex lg:justify-between w-full max-w-[1200px] px-4 sm:px-10">
       <div className="lg:w-1/3">
@@ -90,13 +90,44 @@ export default function Footer(){
       <div className="text-[14px] text-[#00000099]">
         Shop.co © 2000-2023, All Rights Reserved
       </div>
+      <div className="h-[30px] w-[281px] mt-4 lg:mt-0 flex">
+
       <Image
+        src="/logo1.png"
+        alt="logo1"
+        height={30}
+        width={56}
+        
+      /> 
+       <Image
         src="/logo2.png"
         alt="logo2"
         height={30}
-        width={281}
-        className="mt-4 lg:mt-0"
-      />
+        width={56}
+        
+      /> 
+       <Image
+        src="/logo3.png"
+        alt="logo3"
+        height={30}
+        width={56}
+        
+      /> 
+       <Image
+        src="/logo4.png"
+        alt="logo4"
+        height={30}
+        width={56}
+        
+      />  <Image
+      src="/logo5.png"
+      alt="logo5"
+      height={30}
+      width={56}
+      
+    /> 
+      </div>
+      
     </div>
   </div>
 </div>

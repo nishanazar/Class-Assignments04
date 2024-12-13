@@ -1,13 +1,19 @@
+"use client"
+
 import Image from "next/image"
 
+
+
 import {
-    Card,
-    CardDescription,
-     CardHeader,
-   
-  } from "@/components/ui/card"
+  Card,
+  CardDescription,
+  CardHeader,
+} from "@/components/ui/card"
 import { Trash2 } from "lucide-react"
 import CountBtn from "./CountBtn"
+
+import { Button } from "@/components/ui/button"
+
 
 interface ICartCard {
     name: string;
@@ -19,6 +25,10 @@ interface ICartCard {
 
 const CartCard = (props: ICartCard) => {
     const { name, size,color, price, src} = props
+
+
+  
+
     return (
     <Card className="w-[667px] h-32 gap-4  flex justify-between text-black ">
     <Image src={src} alt={"card"} height={154} width={154}/>
@@ -30,8 +40,22 @@ const CartCard = (props: ICartCard) => {
     </CardHeader>
    <div>
    <div className="">
-   <Trash2 color="#d70404" strokeWidth={1.75} className="ml-[125px]"/>
-   <div className="mt-12">
+    
+  <div>
+  <Button
+    variant="ghost"
+    onClick={() => { 
+    alert("Deleted successfully! Your item was removed from the list.") ;
+    }}
+    >
+    <Trash2 color="#d70404" strokeWidth={1.75} className="ml-[125px]" />
+    </Button>
+  </div>
+
+
+   
+ 
+   <div className="mt-8">
    <CountBtn/>
    </div>
    </div>
@@ -44,5 +68,6 @@ const CartCard = (props: ICartCard) => {
 
   )
 }
+
 
 export default CartCard

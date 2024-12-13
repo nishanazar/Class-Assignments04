@@ -1,6 +1,7 @@
 import Image from "next/image"
 import { IoIosStar } from "react-icons/io";
 import { FaStarHalf } from "react-icons/fa";
+import Product from "./Product";
 
 
 
@@ -12,21 +13,13 @@ export default function NewArrivals(){
     </h5>
     <div className="flex gap-7 justify-center ">
     <div className="lg:block hidden">
-    <Image className="" src={"/shirt.png"} alt={"shirt"} height={292} width={270}/>
+    {/* first */}
+    <Product name={"T-SHIRT WITH TAPE DETAILS"} p={"4.5/5"} h5={"$120"} icon={<FaStarHalf />}
+    src={"/shirt.png"}/>
+    </div>
+    {/* second */}
     <div>
-    <h5 className="lg:text-[17px] text-[11px] font-bold py-2 ">T-SHIRT WITH TAPE DETAILS</h5>
-    <div className="text-[#FFC633] w-[150px] h-[19px] flex gap-1">
-    <IoIosStar />
-    <IoIosStar />
-    <IoIosStar />
-    <IoIosStar />
-    <FaStarHalf />
-    <p className="w-[33px] h-[19px] text-[14px] text-[#000000]">4.5/5</p>
-    </div>
-    <h5 className="w-[55px] h-[32px] text-[24px] text-[#000000] font-bold">$120</h5>
-    </div>
-    </div>
-    <div>
+       
     <Image src={"/jeans.png"} alt={"shirt"} height={292} width={270}/>
     <div>
     <h5 className="lg:text-[17px] text-[12px]  font-bold py-2 ">SKINNY FIT JEANS</h5>
@@ -44,21 +37,11 @@ export default function NewArrivals(){
     </div>
     </div>
     </div>
+    {/* third */}
     <div className="lg:block hidden">
-    <Image src={"/checked-shirt.png"} alt={"shirt"} height={292} width={270}/>
-    <div>
-    <h5 className="text-[17px] font-bold py-2  ">CHECKERED SHIRT</h5>
-    <div className="text-[#FFC633] w-[150px] h-[19px] flex gap-1">
-    <IoIosStar />
-    <IoIosStar />
-    <IoIosStar />
-    <IoIosStar />
-    <FaStarHalf />
-    <p className="w-[33px] h-[19px] text-[14px] text-[#000000]">4.5/5</p>
+    <Product name={"CHECKERED SHIRT"} p={"4.5/5"} h5={"$180"} src={"/checked-shirt.png"} icon={<FaStarHalf />}/>
     </div>
-    <h5 className="w-[55px] h-[32px] text-[24px] text-[#000000] font-bold">$180</h5>
-    </div>
-    </div>
+    {/* fourth */}
     <div className="">
     <Image src={"/sripe4.png"} alt={"shirt"} height={292} width={270}/>
     <div>
