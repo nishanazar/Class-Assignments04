@@ -2,7 +2,10 @@
 
 import Image from "next/image"
 
+import React from 'react';
+import { Bounce, ToastContainer, toast } from 'react-toastify';
 
+import 'react-toastify/dist/ReactToastify.css';
 
 import {
   Card,
@@ -42,10 +45,21 @@ const CartCard = (props: ICartCard) => {
    <div className="">
     
   <div>
-  <Button
-    variant="ghost"
+  <Button className="bg-current"
+  
     onClick={() => { 
-    alert("Deleted successfully! Your item was removed from the list.") ;
+      toast.error(' Deleted!', {
+        position: "top-right",
+        autoClose: 5000,
+        hideProgressBar: false,
+        closeOnClick: true,
+        pauseOnHover: true,
+        draggable: true,
+        progress: undefined,
+        theme: "dark",
+        transition: Bounce,
+        });
+    
     }}
     >
     <Trash2 color="#d70404" strokeWidth={1.75} className="ml-[125px]" />
@@ -61,7 +75,7 @@ const CartCard = (props: ICartCard) => {
    </div>
   
   </div>
- 
+  <ToastContainer />
 
   
 </Card>
