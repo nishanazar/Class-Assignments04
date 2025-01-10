@@ -1,8 +1,6 @@
 import Button from "../components/Button"
 import CartCard from "../components/CartCard"
 
-
-
 const Cart = () => {
   return (
     <>

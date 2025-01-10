@@ -22,38 +22,42 @@ return(
    <ImCross className="h-[20px] w-[20px] lg:relative bottom-2 md:left-[1320px] lg:block hidden " />
    </div>
     {/* icon */}
+    {/* mAIN DIv */}
    <div className="relative h-[48px] w-[1240px] lg:top-[32px] top-[32px] left-[15px] lg:left-[100px] gap-4 flex" >
 
     {/* Header Section */}
      <h3 className="md:h-[22px] md:w-[160px] h-[18px] w-[126px] md:text-[32px] text-[25px] leading-[38.4px]   text-[#000000] font-bold mt-1" >SHOP.CO</h3>
+
+     <div>
     <ul className="h-[22px] w-[321px] gap-4 md:text-[16px] mt-3 lg:flex sm:flex hidden">
     <li className="h-[22px] w-[57px]  gap-1 flex">
-     <DropdownMenu>
-    <DropdownMenuTrigger className="btn">
-    <span className="flex items-center">Shop <RiArrowDropDownLine className="h-8 w-8 pr-2" /></span>
-    </DropdownMenuTrigger>
-    <DropdownMenuContent className="bg-white shadow-md rounded-lg p-2">
-    <DropdownMenuItem>Male</DropdownMenuItem>
-    <DropdownMenuItem>Female</DropdownMenuItem>
-    <DropdownMenuItem>T-Shirt</DropdownMenuItem>
-    </DropdownMenuContent>       
-    </DropdownMenu>
+  
+  
 
     </li>
-    <Link href="/"><li  className="h-[22px] w-[56px] ">Home</li></Link>
+    <Link href="/"><li  className="h-[22px] w-[56px] ">Shop</li></Link>
     <Link href="/product"><li  className="h-[22px] w-[56px] ">OnSale</li></Link>
     <Link href="/category"><li className="h-[22px] w-[87px] ">NewArrivals</li></Link>
     <Link href="/cart">  <li className="h-[22px] w-[49px] ">Cart</li></Link>
     </ul>
+    </div>
+
     <div className="h-[48px] w-[500px] rounded-[62px] bg-[#F0F0F0] py-3 px-4 lg:flex sm:hidden  hidden lg:ml-7" >
     <CiSearch className="h-[24px] w-[24px] " />
-    <div className="h-[22px] w-[171px]  text-[16px] text-[#00000066] ml-2 ">Search for products...</div>
+    <div className="h-[22px] w-[171px]  text-[16px] text-[#00000066] ml-2 ">Search for products...
+
     </div>
-    <div className="lg:h-[24px] lg:w-[62px] h-[26px] w-[92px] lg:gap-[14px] flex lg:mt-4 mt-2 gap-3 ml-[60px] ">
-    <CiSearch className="h-[35px] w-[35px]" />
-    <FiShoppingCart className="h-[30px] w-[30px]" />
-    <FaCreativeCommonsBy className="h-[30px] w-[30px]" />
     </div>
+   
+    <div className="lg:h-[100px] lg:w-[100px] h-[26px] w-[92px] lg:gap-[14px] flex gap-3 ml-4  ">
+    <CiSearch className="h-[50px] w-[50px]" />
+    <FiShoppingCart className="h-[50px] w-[50px]" />
+    <FaCreativeCommonsBy className="h-[50px] w-[50px]" />
+    </div>
+    
+    
+
+
     <Sheet>
     <SheetTrigger className="md:hidden mr-[30px]"> 
     <Menu />
@@ -69,6 +73,7 @@ return(
   </SheetContent>
 </Sheet>
    </div>
+
 
 
    </>
