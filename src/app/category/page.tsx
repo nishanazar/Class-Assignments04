@@ -129,7 +129,7 @@ const CategoryPage = () => {
         </div>
         </div>
         {/* Pagination */}
-          <Pagination className="flex justify-center mt-8">
+          <Pagination className="flex justify-center my-8">
           <PaginationContent>
           <PaginationItem>
           <PaginationPrevious href="/" />

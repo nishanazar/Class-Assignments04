@@ -65,7 +65,7 @@ return(
     <SheetContent>
     <h3 className="md:h-[22px] md:w-[160px] h-[18px] w-[126px] md:text-[32px] text-[25px] leading-[38.4px] space-y-4   text-[#000000] font-bold mt-1" >SHOP.CO</h3>
     <div className="space-y-5 flex flex-col mt-6">
-    <Link href="/" className="h-[22px] w-[56px]">Home</Link>
+    <Link href="/" className="h-[22px] w-[56px]">Shop</Link>
     <Link href="/product"className="h-[22px] w-[56px] ">OnSale</Link>
     <Link href="/category"className="h-[22px] w-[87px] ">NewArrivals</Link>
     <Link href="/cart" className="h-[22px] w-[49px] ">Cart</Link>
