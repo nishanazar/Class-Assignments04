@@ -34,7 +34,7 @@ return(
   
   
 
-    </li>
+    </li> 
     <Link href="/"><li  className="h-[22px] w-[56px] ">Shop</li></Link>
     <Link href="/product"><li  className="h-[22px] w-[56px] ">OnSale</li></Link>
     <Link href="/category"><li className="h-[22px] w-[87px] ">NewArrivals</li></Link>

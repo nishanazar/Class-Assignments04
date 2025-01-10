@@ -50,7 +50,7 @@ const ProductDetails = () => {
        
         <div className="w-[143px] h-[37px]  flex gap-4">
           <div className="w-[37px] h-[37px] bg-[#4F4631] rounded-full">
-          <Check color="#eaf1ea" className="pt-1 ml-2" />
+          <Check color="#eaf1ea" className="pt-1 ml-2" />.
           </div>
           <Circle bgColor={"bg-[#314F4A]"}/>
           <Circle bgColor={"bg-[#31344F]"}/>

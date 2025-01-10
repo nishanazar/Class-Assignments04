@@ -1,8 +1,8 @@
 "use client"
 import Image from "next/image"
 import React from 'react';
-import { Bounce, ToastContainer, toast } from 'react-toastify';
-import 'react-toastify/dist/ReactToastify.css';
+
+
 import {
   Card,
   CardDescription,
@@ -33,22 +33,8 @@ const CartCard = (props: ICartCard) => {
     <div>
     <div className="">
     <div>
-    <Button className="bg-current"
-        onClick={() => { 
-        toast.error(' Deleted!', {
-        position: "top-right",
-        autoClose: 5000,
-        hideProgressBar: false,
-        closeOnClick: true,
-        pauseOnHover: true,
-        draggable: true,
-        progress: undefined,
-        theme: "dark",
-        transition: Bounce,
-        });
+    <Button className="bg-current">
     
-    }}
-    >
     <Trash2 color="#d70404" strokeWidth={1.75} className="ml-[125px]" />
     </Button>
     </div>
@@ -57,7 +43,7 @@ const CartCard = (props: ICartCard) => {
     </div>
     </div>
     </div>
-   <ToastContainer />
+
    </Card>
 
   )
