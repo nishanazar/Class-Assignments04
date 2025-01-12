@@ -38,7 +38,7 @@ const CategoryPage = () => {
 
        <hr className=" w-[247px] my-4"/>
 
-       <div className="w-[247px] h-[90px]">
+       <div className="w-[247px] h-[90px] ">
        <h2 className="text-xl font-bold w-[48px] h-[27px]">Price</h2>
        <div className="w-[247px] h-[43px]  mt-3">
            <Image src="/loader.png" height={43} width={247} alt={"loader"}/>

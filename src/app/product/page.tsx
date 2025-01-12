@@ -20,7 +20,7 @@ const ProductDetails = () => {
       <Image src={"/T-shirt3.png"} alt={"shirt"} height={167} width={152}/>
       </div>
 
-      <div>
+      <div className="overflow-x-hidden">
       <Image src={"/big-shirt.png"} alt={"shirt"} height={530} width={444}/>
       </div>
       </div>
@@ -46,7 +46,7 @@ const ProductDetails = () => {
 
        {/* color select */}
        
-      <p className="w-[123px] h-[11px] text-[16px] py-4  ">Select Colors</p>
+      <p className="w-[123px] h-[11px] text-[16px] py-4 overflow-hidden ">Select Colors</p>
        
         <div className="w-[143px] h-[37px]  flex gap-4">
           <div className="w-[37px] h-[37px] bg-[#4F4631] rounded-full">
@@ -62,7 +62,7 @@ const ProductDetails = () => {
         {/* Choose Size */}
         <p className="w-[130px] h-[11px] text-[16px] py-4 ">Choose Size</p>
 
-        <div className="w-[420px] h-[46px]  gap-3 flex">
+        <div className="w-[420px] h-[46px]  gap-3 flex overflow-hidden">
           <div className="w-[86px] h-[46px] rounded-[62px] py-3 px-6 bg-[#F0F0F0] hover:bg-black hover:text-white">Small</div>
           <div className="w-[86px] h-[46px] rounded-[62px] py-3 px-6 bg-[#F0F0F0] hover:bg-black hover:text-white">Medium</div>
           <div className="w-[86px] h-[46px] rounded-[62px] py-3 px-6 bg-[#F0F0F0] hover:bg-black hover:text-white">Large</div>
@@ -79,12 +79,12 @@ const ProductDetails = () => {
 
         {/* section All Reviews */}
         
-          <div className="lg:text-[20px]  text-[#00000099] leading-[22px] space-x-[350px] mt-[60px] lg:ml-[100px] hidden border-b-[1px]">
+          <div className="lg:text-[20px]  text-[#00000099] leading-[22px] space-x-[350px] mt-[60px] lg:ml-[100px]  border-b-[1px] md-block hidden ">
           <span>Product Details</span>
           <span>Rating & Reviews</span>
           <span>FAQs</span>
           </div>
-          <Image className="ml-[900px] my-6" src={"/view.png"} alt={"view"} height={48} width={354}/>
+          <Image className="ml-[900px] my-6 md:block hidden" src={"/view.png"} alt={"view"} height={48} width={354} />
          {/* Rewiews cards */}
             <div className="lg:ml-11 mx-3">
            <div className="md:flex gap-10">
@@ -102,7 +102,7 @@ const ProductDetails = () => {
            </div>
            </div>
 
-           <div className="lg:ml-[490px] ml-10 my-10 ">
+           <div className="lg:ml-[490px] ml-8 my-10 ">
            <Button text={"Load More Reviews"} bgColor={"bg-white"} textcolor={"text-black"} border="border-2"/>
            </div>
 
