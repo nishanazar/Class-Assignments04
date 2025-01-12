@@ -4,7 +4,7 @@ import CartCard from "../components/CartCard"
 const Cart = () => {
   return (
     <>
-    <div className="lg:ml-24 mt-16">
+    <div className="lg:ml-24 mt-16 overflow-x-hidden">
     <h2 className="w-[259px] h-[48px] text-[40px] leading-[48px] font-bold mt-16 ">Your cart</h2>
 
     <div className="lg:flex gap-2">

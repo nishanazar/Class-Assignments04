@@ -68,7 +68,7 @@ const CategoryPage = () => {
          <Circle bgColor={"bg-[#000000]"}/>
          </div>
          </div>
-         <hr className=" w-[247px] my-4"/>
+         <hr className="w-[247px] my-4"/>
 
          <div className="w-[247px] h-[274px] ">
          <h2 className="text-xl font-bold w-[48px] h-[27px]">Size</h2>

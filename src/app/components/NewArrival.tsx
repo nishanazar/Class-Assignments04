@@ -7,11 +7,10 @@ import Product from "./Product";
 
 export default function NewArrivals(){
     return (
-        <>
-    
+    <>
     <h5 className="lg:w-[403px] lg:h-[58px] lg:ml-[518px] lg:text-5xl lg:my-[50px] lg:font-bold text-center text-[#000000] w-[369px] h-[38px] font-extrabold   text-2xl lg:m-0 mt-[75px] mb-6">NEW ARRIVALS
     </h5>
-    <div className="flex gap-7 justify-center ">
+    <div className="flex gap-5 justify-center overflow-hidden ">
     <div className="lg:block hidden">
     {/* first */}
     <Product name={"T-SHIRT WITH TAPE DETAILS"} p={"4.5/5"} h5={"$120"} icon={<FaStarHalf />}
@@ -19,7 +18,6 @@ export default function NewArrivals(){
     </div>
     {/* second */}
     <div>
-       
     <Image src={"/jeans.png"} alt={"shirt"} height={292} width={270}/>
     <div>
     <h5 className="lg:text-[17px] text-[12px]  font-bold py-2 ">SKINNY FIT JEANS</h5>
@@ -61,20 +59,9 @@ export default function NewArrivals(){
     </div>
     </div>
     </div>
-  
-    
-    
-    
-    
-    
-    
     </div>
-
-
-
     <div className="lg:h-[52px] lg:w-[218px] relative top-[40px] rounded-[62px] py-[16px] text-center text-[16px] font-medium leading-[21.6px] border-[1px] border-[#0000001A] lg:left-[544px] left-5">View all</div>
-    
-<hr className="lg:my-[90px] my-[50px] lg:w-[1000px] text-[#0000001A]" />
+    <hr className="lg:my-[90px] my-[50px] lg:w-[1000px] text-[#0000001A]" />
 
 
 

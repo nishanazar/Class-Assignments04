@@ -22,7 +22,7 @@ interface ICartCard {
 const CartCard = (props: ICartCard) => {
     const { name, size,color, price, src} = props
     return (
-    <Card className="w-[667px] h-32 gap-4  flex justify-between text-black ">
+    <Card className="w-[667px] h-32 gap-4  flex justify-between text-black overflow-x-hidden">
     <Image src={src} alt={"card"} height={154} width={154}/>
     <CardHeader className=" mb-4">
     <CardDescription className="w-[277px] h-[27px] lg:text-[20px] leading-[27px] font-bold">{name}</CardDescription>

@@ -17,13 +17,17 @@ import { Menu } from "lucide-react";
 export default function Home (){
 return(
     <>
-   <div className="lg:h-[38px] w-full mx-auto overflow-x-hidden  sm:h-[34px] bg-[#000000] text-[#FFFFFF] pl-[30px] py-[9px] md:p-[0px] ">
-   <p className="relative lg:h-[19px] lg:w-[361px] bg-[#000000] sm:top-[9px] lg:left-[544px] lg:text-[13px] sm:text-[13px] sm:text-center  text-[10px] leading-[18.9px] ">Sign up and get 20% off to your first order<span className=" underline">Sign Up Now</span></p>
-   <ImCross className="h-[20px] w-[20px] lg:relative bottom-2 md:left-[1320px] lg:block hidden " />
-   </div>
+   <div className="w-full mx-auto  bg-[#000000] text-[#FFFFFF] pl-[15px] md:pl-[500px] py-[9px] md:py-3 flex justify-between items-center overflow-x-hidden">
+  <p className="text-[10px] sm:text-[13px] leading-[18.9px] text-center lg:text-left">
+    Sign up and get 20% off to your first order 
+    <span className="underline"> Sign Up Now</span>
+  </p>
+  <ImCross className="h-[20px] w-[20px] hidden sm:block cursor-pointer" />
+</div>
+
     {/* icon */}
     {/* mAIN DIv */}
-   <div className="relative h-[48px] w-[1240px] lg:top-[32px] top-[32px] left-[15px] lg:left-[100px] gap-4 flex" >
+   <div className="relative h-[48px] w-full lg:top-[32px] top-[32px] left-[15px] lg:left-[100px] gap-4 flex overflow-x-hidden" >
 
     {/* Header Section */}
      <h3 className="md:h-[22px] md:w-[160px] h-[18px] w-[126px] md:text-[32px] text-[25px] leading-[38.4px]   text-[#000000] font-bold mt-1" >SHOP.CO</h3>
@@ -55,23 +59,24 @@ return(
     <FaCreativeCommonsBy className="h-[50px] w-[50px]" />
     </div>
     
-    
-
-
     <Sheet>
-    <SheetTrigger className="md:hidden mr-[30px]"> 
+  <SheetTrigger className="mr-4 md:hidden">
     <Menu />
-    </SheetTrigger>
-    <SheetContent>
-    <h3 className="md:h-[22px] md:w-[160px] h-[18px] w-[126px] md:text-[32px] text-[25px] leading-[38.4px] space-y-4   text-[#000000] font-bold mt-1" >SHOP.CO</h3>
-    <div className="space-y-5 flex flex-col mt-6">
-    <Link href="/" className="h-[22px] w-[56px]">Shop</Link>
-    <Link href="/product"className="h-[22px] w-[56px] ">OnSale</Link>
-    <Link href="/category"className="h-[22px] w-[87px] ">NewArrivals</Link>
-    <Link href="/cart" className="h-[22px] w-[49px] ">Cart</Link>
+  </SheetTrigger>
+  <SheetContent className="px-4 py-6">
+    <h3 className="text-[20px] md:text-[32px] font-bold text-[#000000] leading-[1.2]">
+      SHOP.CO
+    </h3>
+    <div className="space-y-4 flex flex-col mt-4">
+      <Link href="/" className="text-sm font-medium">Shop</Link>
+      <Link href="/product" className="text-sm font-medium">OnSale</Link>
+      <Link href="/category" className="text-sm font-medium">NewArrivals</Link>
+      <Link href="/cart" className="text-sm font-medium">Cart</Link>
     </div>
   </SheetContent>
 </Sheet>
+
+
    </div>
 
 

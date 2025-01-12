@@ -19,10 +19,10 @@ import {
 const ProductPageCard = (props: IProductPage) => {
     const {name, des, para} = props
   return (
-    <Card className="w-full max-w-[610px] h-auto sm:h-[241px] rounded-[20px]">
+    <Card className="w-full md:max-w-[610px] h-auto sm:h-[241px] rounded-[20px] overflow-hidden ">
     <CardHeader>
     <CardTitle>
-    <div className="text-[#FFC633] flex gap-2">
+    <div className="text-[#FFC633] flex gap-2 ml-7 mt-3">
     <IoIosStar />
     <IoIosStar />
     <IoIosStar />
@@ -31,7 +31,7 @@ const ProductPageCard = (props: IProductPage) => {
     </CardTitle>
     <CardDescription>
     <div className="flex gap-4 mt-2 items-center">
-    <h3 className="text-[18px] sm:text-[20px] leading-6 font-bold text-black">{name}</h3>
+    <h3 className="text-[18px] sm:text-[20px] leading-6 font-bold text-black ml-7">{name}</h3>
     <Image src={"/Frame.png"} alt={"icon"}height={24} width={24}className="h-[24px] w-[24px]"/>
     </div>
     </CardDescription>

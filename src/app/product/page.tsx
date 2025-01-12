@@ -11,7 +11,7 @@ import Circle from "../components/Circle"
 const ProductDetails = () => {
   return (
     <>
-     <div className=" md:mt-[170px] mt-[60px] lg:flex ">
+     <div className=" md:mt-[170px] mt-[60px] lg:flex overflow-x-hidden ">
       {/* shirt  */}
       <div className="flex lg:ml-[100px] md:ml-14 gap-3 ">
       <div className="space-y-3">
@@ -26,7 +26,7 @@ const ProductDetails = () => {
       </div>
 
       {/* product Details */}
-       <div className="md:ml-10 ml-4 space-y-4">
+       <div className="md:my-10 ml-4 space-y-4">
         <h2 className="w-[600px] h-[48px]  font-bold md:text-[40px] text-[25px] leading-[48px] text-[#000000]">One Life Graphic T-shirt</h2>
         <div className="flex gap-1 text-[#FFC633] text-[24px]"> 
         <IoIosStar />
